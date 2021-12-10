@@ -12,3 +12,5 @@ clean:
 	rm *.o
 	rm interface
 	rm worker
+	rm tointer
+	rm toworker
