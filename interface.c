@@ -8,9 +8,9 @@
 
 
 int main() {
-    int a,b;
-    a = mkfifo("toworker", 0644); //creates both pipes
-    b = mkfifo("tointer", 0644);
+    
+    mkfifo("toworker", 0644); //creates both pipes
+    mkfifo("tointer", 0644);
 
     int toworker, tointer;
 
